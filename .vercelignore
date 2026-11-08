@@ -1,0 +1,10 @@
+.venv
+data
+__pycache__
+web/node_modules
+web/.next
+artifacts
+model
+reports
+.env*
+.vercel

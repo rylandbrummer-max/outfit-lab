@@ -1,0 +1,90 @@
+{
+  "selected_model": "gradient_boosting",
+  "comparison": {
+    "baseline_category_mix": {
+      "valid_auc": 0.5,
+      "valid_accuracy": 0.5,
+      "valid_fitb_accuracy": 0.2533,
+      "fit_seconds": 0.3
+    },
+    "logistic_regression": {
+      "valid_auc": 0.829,
+      "valid_accuracy": 0.7537,
+      "valid_fitb_accuracy": 0.522,
+      "fit_seconds": 9.0
+    },
+    "gradient_boosting": {
+      "valid_auc": 0.8419,
+      "valid_accuracy": 0.7583,
+      "valid_fitb_accuracy": 0.5163,
+      "fit_seconds": 9.5
+    }
+  },
+  "error_analysis": {
+    "auc_by_outfit_size": {
+      "4-5": {
+        "n_outfits": 3176,
+        "auc": 0.8316
+      },
+      "6+": {
+        "n_outfits": 2088,
+        "auc": 0.8862
+      },
+      "2-3": {
+        "n_outfits": 736,
+        "auc": 0.7351
+      }
+    },
+    "fitb_by_blank_category": {
+      "accessories": {
+        "n_questions": 60,
+        "fitb_accuracy": 0.4167
+      },
+      "all-body": {
+        "n_questions": 283,
+        "fitb_accuracy": 0.4841
+      },
+      "bags": {
+        "n_questions": 529,
+        "fitb_accuracy": 0.5709
+      },
+      "bottoms": {
+        "n_questions": 364,
+        "fitb_accuracy": 0.4341
+      },
+      "hats": {
+        "n_questions": 66,
+        "fitb_accuracy": 0.5758
+      },
+      "jewellery": {
+        "n_questions": 436,
+        "fitb_accuracy": 0.5321
+      },
+      "outerwear": {
+        "n_questions": 157,
+        "fitb_accuracy": 0.5032
+      },
+      "scarves": {
+        "n_questions": 33,
+        "fitb_accuracy": 0.5758
+      },
+      "shoes": {
+        "n_questions": 579,
+        "fitb_accuracy": 0.5596
+      },
+      "sunglasses": {
+        "n_questions": 151,
+        "fitb_accuracy": 0.4901
+      },
+      "tops": {
+        "n_questions": 342,
+        "fitb_accuracy": 0.4708
+      }
+    }
+  },
+  "top_coefficients": null,
+  "chance_level": {
+    "auc": 0.5,
+    "fitb_accuracy": 0.25
+  }
+}

@@ -1,0 +1,10 @@
+# Exact versions: the saved pipeline must be loaded with the same scikit-learn it was trained with.
+scikit-learn==1.9.1
+numpy==2.5.4
+scipy==1.18.1
+pandas==3.1.1
+pyarrow==26.0.1
+joblib==1.6.0
+pillow
+fastapi[standard]==0.162.2
+pydantic==2.14.3
